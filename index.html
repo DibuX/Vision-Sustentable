@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visión Sustentable - Noticias de Medio Ambiente y Sustentabilidad en Argentina</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-top">
+      <div class="container">
+        <div class="logo-container">
+          <a href="index.html">
+            <h1>Visión<span>Sustentable</span></h1>
+          </a>
+        </div>
+        <div class="header-actions">
+          <div class="search-container">
+            <input type="text" placeholder="Buscar...">
+            <button class="search-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </button>
+          </div>
+          <button class="menu-toggle" aria-label="Abrir menú">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <div class="container">
+        <ul class="nav-list">
+          <li><a href="#" class="active">Inicio</a></li>
+          <li><a href="#">Energías Renovables</a></li>
+          <li><a href="#">Cambio Climático</a></li>
+          <li><a href="#">Economía Circular</a></li>
+          <li><a href="#">Biodiversidad</a></li>
+          <li><a href="#">Políticas Ambientales</a></li>
+          <li><a href="#">Empresas Sustentables</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container">
+        <div class="featured-article">
+          <div class="featured-image">
+            <img src="img/conferencias.jpg" alt="Imagen destacada">
+            <div class="category-tag">Cambio Climático</div>
+          </div>
+          <div class="featured-content">
+            <h2>Argentina presenta nuevo plan de acción climática en la COP28</h2>
+            <p class="article-meta">Por <a href="#">María González</a> | 21 Mayo, 2025</p>
+            <p class="article-excerpt">El gobierno argentino anunció nuevas medidas para reducir las emisiones de carbono y promover la transición hacia energías renovables en todo el país.</p>
+            <a href="#" class="read-more">Leer más</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-news">
+      <div class="container">
+        <div class="section-header">
+          <h2>Últimas Noticias</h2>
+          <a href="#" class="view-all">Ver todas</a>
+        </div>
+        <div class="news-grid">
+          <article class="news-card">
+            <div class="news-image">
+              <img src="img/energia-renovable.jpg" alt="Noticia 1">
+              <div class="category-tag">Energías Renovables</div>
+            </div>
+            <div class="news-content">
+              <h3><a href="#">Inauguran el parque solar más grande de Argentina en Jujuy</a></h3>
+              <p class="article-meta">20 Mayo, 2025</p>
+              <p class="article-excerpt">La nueva instalación generará energía limpia para más de 100,000 hogares y creará cientos de empleos locales.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-image">
+              <img src="img/economia.png" alt="Noticia 2">
+              <div class="category-tag">Economía Circular</div>
+            </div>
+            <div class="news-content">
+              <h3><a href="#">Buenos Aires implementa nuevo sistema de reciclaje inteligente</a></h3>
+              <p class="article-meta">19 Mayo, 2025</p>
+              <p class="article-excerpt">El sistema utiliza tecnología IoT para optimizar la recolección y procesamiento de residuos en la capital.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-image">
+              <img src="img/biodiversidad.jpg" alt="Noticia 3">
+              <div class="category-tag">Biodiversidad</div>
+            </div>
+            <div class="news-content">
+              <h3><a href="#">Descubren nueva especie de ave en el Parque Nacional Iguazú</a></h3>
+              <p class="article-meta">18 Mayo, 2025</p>
+              <p class="article-excerpt">Científicos argentinos documentaron una especie de colibrí nunca antes vista en la región noreste del país.</p>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="news-image">
+              <img src="img/politicas.jpg" alt="Noticia 4">
+              <div class="category-tag">Políticas Ambientales</div>
+            </div>
+            <div class="news-content">
+              <h3><a href="#">Congreso aprueba ley de protección de humedales tras años de debate</a></h3>
+              <p class="article-meta">17 Mayo, 2025</p>
+              <p class="article-excerpt">La nueva legislación establece un marco integral para la conservación y uso sostenible de estos ecosistemas vitales.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories-section">
+      <div class="container">
+        <div class="categories-grid">
+          <div class="category-column">
+            <div class="section-header">
+              <h2>Energías Renovables</h2>
+              <a href="#" class="view-all">Ver más</a>
+            </div>
+            <article class="category-main-article">
+              <img src="img/energia-renovable.jpg" alt="Energías Renovables">
+              <h3><a href="#">Argentina alcanza récord de generación eólica en el primer trimestre</a></h3>
+              <p class="article-meta">16 Mayo, 2025</p>
+              <p class="article-excerpt">Los parques eólicos de la Patagonia superaron todas las expectativas de producción energética.</p>
+            </article>
+            <div class="category-list">
+              <article class="category-list-item">
+                <h4><a href="#">Nuevos incentivos fiscales para instalación de paneles solares domésticos</a></h4>
+                <p class="article-meta">15 Mayo, 2025</p>
+              </article>
+              <article class="category-list-item">
+                <h4><a href="#">Córdoba inaugura planta de biogás que utiliza residuos agrícolas</a></h4>
+                <p class="article-meta">14 Mayo, 2025</p>
+              </article>
+            </div>
+          </div>
+          <div class="category-column">
+            <div class="section-header">
+              <h2>Economía Circular</h2>
+              <a href="#" class="view-all">Ver más</a>
+            </div>
+            <article class="category-main-article">
+              <img src="img/economia.png" alt="Economía Circular">
+              <h3><a href="#">Empresas argentinas se unen para crear consorcio de reciclaje de plásticos</a></h3>
+              <p class="article-meta">15 Mayo, 2025</p>
+              <p class="article-excerpt">La iniciativa busca transformar residuos plásticos en nuevos productos de valor agregado.</p>
+            </article>
+            <div class="category-list">
+              <article class="category-list-item">
+                <h4><a href="#">Lanzan app para conectar productores locales con consumidores urbanos</a></h4>
+                <p class="article-meta">14 Mayo, 2025</p>
+              </article>
+              <article class="category-list-item">
+                <h4><a href="#">Mendoza implementa sistema de reutilización de aguas grises en edificios públicos</a></h4>
+                <p class="article-meta">13 Mayo, 2025</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="special-report">
+      <div class="container">
+        <div class="special-report-content">
+          <div class="special-report-text">
+            <div class="section-header">
+              <h2>Informe Especial</h2>
+            </div>
+            <h3>Crisis hídrica en Argentina: Un desafío creciente</h3>
+            <p>Analizamos en profundidad la situación actual de los recursos hídricos en Argentina, las regiones más afectadas y las soluciones propuestas por expertos y autoridades.</p>
+            <a href="#" class="read-more">Leer informe completo</a>
+          </div>
+          <div class="special-report-image">
+            <img src="img/sequia.png" alt="Crisis hídrica en Argentina">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="opinion-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Opinión</h2>
+          <a href="#" class="view-all">Ver todas</a>
+        </div>
+        <div class="opinion-grid">
+          <article class="opinion-card">
+            <div class="author-info">
+              <img src="img/doc.png" alt="Autor" class="author-image">
+              <div class="author-details">
+                <h3>Dr. Carlos Martínez</h3>
+                <p>Investigador del CONICET</p>
+              </div>
+            </div>
+            <h4><a href="#">El rol de la ciencia argentina en la lucha contra el cambio climático</a></h4>
+            <p class="article-excerpt">Necesitamos mayor inversión en investigación y desarrollo para enfrentar los desafíos ambientales del futuro.</p>
+          </article>
+          <article class="opinion-card">
+            <div class="author-info">
+              <img src="img/persona2.png" alt="Autor" class="author-image">
+              <div class="author-details">
+                <h3>Lic. Laura Rodríguez</h3>
+                <p>Economista Ambiental</p>
+              </div>
+            </div>
+            <h4><a href="#">Oportunidades económicas de la transición energética en Argentina</a></h4>
+            <p class="article-excerpt">El camino hacia una economía baja en carbono puede generar miles de empleos verdes en el país.</p>
+          </article>
+          <article class="opinion-card">
+            <div class="author-info">
+              <img src="img/persona1.png" alt="Autor" class="author-image">
+              <div class="author-details">
+                <h3>Ing. Pablo Sánchez</h3>
+                <p>Especialista en Energías Renovables</p>
+              </div>
+            </div>
+            <h4><a href="#">El potencial inexplorado de la energía geotérmica en Argentina</a></h4>
+            <p class="article-excerpt">Nuestro país tiene recursos geotérmicos significativos que podrían diversificar la matriz energética.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Suscríbete a nuestro boletín</h2>
+          <p>Recibe las últimas noticias sobre sustentabilidad y medio ambiente en Argentina directamente en tu correo.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <aside class="sidebar">
+    <div class="sidebar-section trending-section">
+      <h3>Tendencias</h3>
+      <ul class="trending-list">
+        <li>
+          <span class="trending-number">1</span>
+          <a href="#">Récord de temperaturas en la Patagonia preocupa a científicos</a>
+        </li>
+        <li>
+          <span class="trending-number">2</span>
+          <a href="#">Empresas argentinas lideran ranking latinoamericano de sustentabilidad</a>
+        </li>
+        <li>
+          <span class="trending-number">3</span>
+          <a href="#">Nuevo estudio revela impacto del cambio climático en cultivos pampeanos</a>
+        </li>
+        <li>
+          <span class="trending-number">4</span>
+          <a href="#">Comunidades indígenas protegen bosques nativos con tecnología satelital</a>
+        </li>
+        <li>
+          <span class="trending-number">5</span>
+          <a href="#">Argentina firma acuerdo internacional para reducción de plásticos</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sidebar-section">
+      <h3>Lo más leído</h3>
+      <div class="most-read-list">
+        <article class="most-read-item">
+          <img src="img/plasticos.jpg" alt="Noticia popular">
+          <div class="most-read-content">
+            <h4><a href="#">Descubren microplásticos en agua potable de principales ciudades</a></h4>
+            <p class="article-meta">18 Mayo, 2025</p>
+          </div>
+        </article>
+        <article class="most-read-item">
+          <img src="img/carbono.jpg" alt="Noticia popular">
+          <div class="most-read-content">
+            <h4><a href="#">Cómo reducir tu huella de carbono: guía práctica</a></h4>
+            <p class="article-meta">17 Mayo, 2025</p>
+          </div>
+        </article>
+        <article class="most-read-item">
+          <img src="img/textil.jpg" alt="Noticia popular">
+          <div class="most-read-content">
+            <h4><a href="#">El impacto ambiental de la industria textil argentina</a></h4>
+            <p class="article-meta">16 Mayo, 2025</p>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="sidebar-section">
+      <h3>Eventos</h3>
+      <div class="events-list">
+        <div class="event-item">
+          <div class="event-date">
+            <span class="event-day">25</span>
+            <span class="event-month">Mayo</span>
+          </div>
+          <div class="event-details">
+            <h4><a href="#">Feria de Energías Renovables</a></h4>
+            <p>Buenos Aires, Argentina</p>
+          </div>
+        </div>
+        <div class="event-item">
+          <div class="event-date">
+            <span class="event-day">10</span>
+            <span class="event-month">Junio</span>
+          </div>
+          <div class="event-details">
+            <h4><a href="#">Congreso de Economía Circular</a></h4>
+            <p>Córdoba, Argentina</p>
+          </div>
+        </div>
+        <div class="event-item">
+          <div class="event-date">
+            <span class="event-day">15</span>
+            <span class="event-month">Junio</span>
+          </div>
+          <div class="event-details">
+            <h4><a href="#">Seminario: Cambio Climático y Agricultura</a></h4>
+            <p>Rosario, Argentina</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <div class="footer-logo">
+            <h2>Visión<span>Sustentable</span></h2>
+          </div>
+          <p>Medio de comunicación especializado en sustentabilidad y medio ambiente en Argentina.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Secciones</h3>
+          <ul class="footer-links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Energías Renovables</a></li>
+            <li><a href="#">Cambio Climático</a></li>
+            <li><a href="#">Economía Circular</a></li>
+            <li><a href="#">Biodiversidad</a></li>
+            <li><a href="#">Políticas Ambientales</a></li>
+            <li><a href="#">Empresas Sustentables</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Información</h3>
+          <ul class="footer-links">
+            <li><a href="#">Quiénes Somos</a></li>
+            <li><a href="#">Equipo Editorial</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Publicidad</a></li>
+            <li><a href="#">Términos y Condiciones</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Contacto</h3>
+          <address>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg> Buenos Aires, Argentina</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg> +54 11 5555-5555</p>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg> contacto@visionsustentable.com</p>
+          </address>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Visión Sustentable. Todos los derechos reservados.</p>
+        <div id="database-integration" class="database-placeholder" style="display: none;">
+          <!-- Aca puede ir la base de datos mas adelante -->
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
